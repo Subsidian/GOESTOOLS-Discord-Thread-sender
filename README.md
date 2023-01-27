@@ -50,9 +50,12 @@ QUALITY_P = 90
 #===================================
 
 ```
-Create multiple threads in a discord channel. The bot MUST have access to these threads for obvious reasons. This bot requires 4 threads, they can be named whatever. I.e: GOES 18, GOES 16, Himawari 8 (or 9) and NWS.
+3. Create multiple threads in a discord channel. The bot MUST have access to these threads for obvious reasons. This bot requires 4 threads, they can be named whatever. I.e: GOES 18, GOES 16, Himawari 8 (or 9) and NWS.
 
-Create a folder, any location, any name. This will house temp image files if they were greater than 8mb, for discord. I would recommend placing this folder somewhere accessable, as noted before; temp files are not yet automatically deleted. To prevent your storage filling up, these may need to be cleaned out every once in a while. 
+4. Create a folder, any location, any name. This will house temp image files if they were greater than 8mb, for discord. I would recommend placing this folder somewhere accessable, as noted before; temp files are not yet automatically deleted. To prevent your storage filling up, these may need to be cleaned out every once in a while. 
+
+5. Run your bot. On both windows and linux you can run the bot by opening a terminal/console window in the bot.py directory, and running ```Python bot.py```, alternatively if you have multiple version of python installed, or python 3, you can run 
+```python3 bot.py```
 ```
 discord.client logging in using static token
 discord.gateway Shard ID None has connected to Gateway (Session ID: #######################)
