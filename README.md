@@ -20,7 +20,7 @@ As for required libraries, these are here with the correct git command to paste 
 | Watchdog | git install watchdog |
 | PIL | git install Pillow |
 
-#IMPORTANT
+# IMPORTANT
 Discord's latest library (discord.py) failed to recognize alot of my code. I believe this is because that version is 1.5.X, however the good news is the beta version of 2.0 has been released for some time, and just requires different steps to download. This can be found here:
 ```
 $ git clone https://github.com/Rapptz/discord.py
