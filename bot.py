@@ -45,8 +45,8 @@ class ImageHandler(FileSystemEventHandler):
     def on_created(self, event):
         if event.is_directory:
             return None
-        #Only checks for jpg and png files, you can add another or statement to include gifs as well.
-        elif event.src_path.endswith('.jpg') or event.src_path.endswith('.png'):
+        #Only checks for jpg, gif and png files
+        elif event.src_path.endswith('.jpg') or event.src_path.endswith('.png') or event.src_path.endswith('.gif'):
             print("Event type:", event.event_type)
             print("Path:", event.src_path)
             #if statements, as the default folders are called "goes18, goes16 and himawari8", we can search in the path for that name.
