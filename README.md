@@ -68,6 +68,9 @@ If this happens, please learn your lesson of not sharing this token anywhere, an
 
 
 # To-Do:
+Bot can occasionally crash when multiple files are attempted to send at once, as discord can rate limit. Usually this results just in an error, and it will try again in 30 seconds, but occasionally discord will say "Right, F off" and entirely break it. Probably just add a sleep timer to images.
+Add FC (Full Colour) specific thread
+Utalize "If true and..." to enable and disable threads, so people don't have to use them all.
 Create automatic deletion of temp images. OS worked perfectly fine in windows but debian wasnt too pleased with it, so it's been removed for now.
 
 Feel free to open an issue for anything (even just support) and i'll do my best to help
