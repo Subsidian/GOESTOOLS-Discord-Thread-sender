@@ -72,5 +72,6 @@ If this happens, please learn your lesson of not sharing this token anywhere, an
 + Add FC (Full Colour) specific thread - **IMPLIMENTED - IN TESTING**
 + Enable and disable threads  - **IMPLIMENTED - IN TESTING**
 + Create automatic deletion of temp images - **IMPLIMENTED - IN TESTING**
++ Use imgur to upload full size images for Discord
 
 Feel free to open an issue for anything (even just support) and i'll do my best to help
