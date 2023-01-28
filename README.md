@@ -1,7 +1,7 @@
 # GOESTOOLS Discord Thread Image Sender
 ## Welcome!
 This bot will detect any new images within the goes-tools "goes" folder, and subsequently send these to a specified discord thread.
-Unfortunately, discord has a limitation to 9mb files, so some Full-Disk images can be higher than this, however this code reduces the quality of the image for sending in discord - leaving the original unaltered. (Note: The temp directory DOES NOT auto delete images, so feel free to delete the files within anytime)
+Unfortunately, discord has a limitation to 9mb files, so some Full-Disk images can be higher than this, however this code reduces the quality of the image for sending in discord - leaving the original unaltered.
 
 This bot WILL NOT delete images from the original send location. I.E Rapberry Pi, Windows Desktop etc.
 
