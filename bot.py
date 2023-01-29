@@ -86,7 +86,7 @@ class ImageHandler(FileSystemEventHandler):
             elif GOES_16_THREAD == True and "goes16" in event.src_path:
                 thread = client.get_channel(GOES_16_THREAD_ID)
                 
-            elif HIMAWARI_8_THREAD == True and "himawari8" in event.src_path:
+            elif Himawari_8_THREAD == True and "himawari8" in event.src_path:
                 thread = client.get_channel(Himawari_8_THREAD_ID)
             
             elif NWS_THREAD == True and "nws" in event.src_path:
